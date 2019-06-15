@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="116.0" prefWidth="147.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="serwis.SController">
+   <children>
+      <TextArea prefHeight="69.0" prefWidth="192.0" text="Dziękuję za korzystanie z pliku!" wrapText="true" />
+      <Button fx:id="zamknijButton" layoutX="61.0" layoutY="74.0" mnemonicParsing="false" onAction="#zamknijButtonAction" text="Zamknij" />
+   </children>
+</AnchorPane>

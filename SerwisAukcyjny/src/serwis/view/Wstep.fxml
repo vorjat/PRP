@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="267.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serwis.SController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="267.0">
+         <children>
+            <Label text="Autor: Przemysław Jarek" />
+            <Label text="Data: 15/06/2019" />
+            <Label text="Przedmiot: Projekt Przejściowy" />
+            <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Aplikacja pozwala na wczytywanie/dodawanie obrazów do/z pliku tekstowego." wrapText="true" />
+         </children>
+      </VBox>
+      <Button fx:id="bDalej" layoutX="146.0" layoutY="227.0" mnemonicParsing="false" onAction="#bDalejAction" prefHeight="40.0" prefWidth="100.0" text="Dalej" AnchorPane.rightAnchor="20.0" />
+      <Button fx:id="bAnuluj" layoutX="14.0" layoutY="227.0" mnemonicParsing="false" onAction="#bAnulujAction" prefHeight="40.0" prefWidth="100.0" text="Anuluj" AnchorPane.leftAnchor="20.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="415.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serwis.SController">
+   <children>
+      <TextField fx:id="adderTytul" layoutX="136.0" layoutY="49.0" prefHeight="26.0" prefWidth="211.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="49.0" />
+      <Label layoutX="20.0" layoutY="54.0" text="Tytuł" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="54.0" />
+      <Label layoutX="20.0" layoutY="94.0" text="Autor" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="94.0" />
+      <Label layoutX="20.0" layoutY="214.0" text="Szerokość" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="214.0" />
+      <Label layoutX="20.0" layoutY="134.0" text="Kształt" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="134.0" />
+      <Label layoutX="20.0" layoutY="334.0" text="Cena" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="334.0" />
+      <Label layoutX="20.0" layoutY="254.0" text="Promień" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="254.0" />
+      <Label layoutX="20.0" layoutY="294.0" text="Waga" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="294.0" />
+      <Label layoutX="20.0" layoutY="174.0" text="Wysokość" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="174.0" />
+      <TextField fx:id="adderAutor" layoutX="136.0" layoutY="89.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderKsztalt" layoutX="136.0" layoutY="129.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderWysokosc" layoutX="136.0" layoutY="169.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderSzerokosc" layoutX="136.0" layoutY="209.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderPromien" layoutX="136.0" layoutY="249.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderWaga" layoutX="136.0" layoutY="289.0" prefHeight="26.0" prefWidth="211.0" />
+      <TextField fx:id="adderCena" layoutX="136.0" layoutY="329.0" prefHeight="26.0" prefWidth="211.0" />
+      <Button fx:id="adderButton" layoutX="140.0" layoutY="375.0" mnemonicParsing="false" onAction="#adderButtonAction" prefHeight="26.0" prefWidth="79.0" text="Add" />
+      <Label layoutX="19.0" layoutY="14.0" text="Ścieżka" />
+      <TextField fx:id="adderSciecha" layoutX="134.0" layoutY="9.0" prefHeight="26.0" prefWidth="211.0" text="/home/users/pjarek2/Obrazy/test1.txt" />
+   </children>
+</AnchorPane>
